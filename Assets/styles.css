@@ -3,6 +3,10 @@ box-sizing: border-box;
 margin: 0;
 padding: 0;
 }
+:root{
+--blue:rgb(116, 210, 210);
+--text:rgba(2, 23, 23, 0.65);
+}
 
 header{
 display: flex;
@@ -13,10 +17,11 @@ border: .5em;
 padding: .5em 0em;
 }
 h1 {
-background-color: rgb(116, 210, 210);
+background-color: var(--blue);
 font-size: 2.5em;
 padding: .1em .1em .1em 1em;
 margin: 0px;
+color: var(--text);
 }
 nav > ul.ul-nav {
 display: flex;
@@ -29,8 +34,8 @@ border-spacing: 5px;
 padding: 10px;
 }
 .nav > a{
-color: rgb(116, 210, 210);
-border-bottom: 2px solid  rgb(116, 210, 210);
+color:var(--blue);
+border-bottom: 2px solid  var(--blue);
 text-decoration: none;
 }
 
@@ -39,25 +44,29 @@ display: flex;
 justify-content: flex-end;
 align-items: flex-end;
 height: 20em;
-background: linear-gradient(360deg, hsla(199, 74%, 44%, 0.65) 0%, hsla(181, 28%, 28%, 0.65) 100%), url(./images/pexels-david-bartus-963278.jpg);
+background: linear-gradient(360deg, hsla(199, 74%, 44%, 0.65) 0%, hsla(180, 28%, 28%, 0.65) 100%), url(./images/pexels-david-bartus-963278.jpg);
 background-size: 100% 100vh;
 background-repeat: no-repeat;
 }
 .subtitle{
 color: black;
 padding: 10px;
-background-color: rgb(116, 210, 210);
+background-color:var(--blue);
 font-size: 1.5em;
 margin: 1em;
+color: var(--text);
 }
 .about-me{
 display: flex;
-margin-left: 5em;
+margin: 1.5em 0em 0em 5em;
+color: var(--text);
+
 }
 .paragraphs{
 display: flex;
 flex-direction: column;
-border-left: 2px black solid;
+border-left: 2px solid #335b5ba6;
+color: var(--text);
 
 }
 .about-p{
@@ -66,56 +75,67 @@ margin-left: 20px;
 }
 .work{
 display: flex;
-margin-left: 5em;
+margin: 1.5em 0em 0em 5em;
+color: var(--text);
 }
 .projects{
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
-border-left: 2px black solid;
+border-left: 2px solid #335b5ba6;
 margin-left: 5px;
-padding-left: 10px;
+padding-left: 20px;
 
 }
 .wave{
 height: 200px;
 width: 500px;
 flex: 0 0 90%;
+border: 2px solid var(--blue);
+border-bottom: 0px;
 }
 .led{
 height: 125px;
 width: 100px;
-flex: 0 0 45%;   
+flex: 0 0 45%;
+border: 2px solid var(--blue);
+border-bottom: 0px;  
 }
 .calculator{
 height: 125px;
 width: 100px;
-flex: 0 0 45%;   
+flex: 0 0 45%;
+border: 2px solid var(--blue);
+border-left: 0px;
 }
 .puzzel{
 height: 125px;
 width: 100px;
 flex: 0 0 45%;
+border: 2px solid var(--blue);
+border-right: 0px;
 }
 .trail{
 height: 125px;
 width: 100px;
 flex: 0 0 45%;
+border: 2px solid var(--blue);
+border-top: 0px;
 }
 .contact-me{
 display: flex;
+color: var(--text);
 }
 .contact-me > h2 {
 flex-wrap: wrap; 
-margin-left: 1em;   
+margin: 1.5em 0em 0em 1em;   
 }
 .contacts{
 display: flex;
 flex-direction: row;
 align-items: center;
 justify-content: space-between;
-border-left: 2px black solid;
-border-left: 2px black solid;
+border-left: 2px solid #335b5ba6;
 margin-left: 5px;
 padding-left: 10px;
 }

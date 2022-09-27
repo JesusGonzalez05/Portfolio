@@ -58,9 +58,8 @@ color: var(--text);
 }
 .about-me{
 display: flex;
-margin: 1.5em 0em 0em 5em;
+margin: 1.5em 0em 0em 8em;
 color: var(--text);
-
 }
 .paragraphs{
 display: flex;
@@ -72,70 +71,150 @@ color: var(--text);
 .about-p{
 padding: 10px 5px;
 margin-left: 20px;
-}
+max-width: 950px;
+} 
 .work{
-display: flex;
-margin: 1.5em 0em 0em 5em;
-color: var(--text);
-}
-.projects{
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-border-left: 2px solid #335b5ba6;
-margin-left: 5px;
-padding-left: 20px;
+    display: flex;
+    margin: 1.5em 0em 0em 10.81em;
+    color: var(--text);
+    }
 
+.projects{   
+     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 7px;
+    width: 700px;
+    border-left: 2px solid #335b5ba6;
+    padding-left: 20px;
 }
+
+div.div-wave1 {
+position: relative;
+width: 600px;
+height: 200px;
+} 
+  
+div.div-wave2 {
+position: absolute;
+top: 107px;
+left: 0;
+width: 200px;
+height: 34px;
+background-color: var(--blue);
+}
+.figcaption-1{
+text-align: center;
+font-size: 28px;
+}
+div.div-led1 {
+position: relative;
+width: 300px;
+height: 200px;
+} 
+div.div-led2 {
+position: absolute;
+top: 107px;
+left: 0;
+width: 200px;
+height: 34px;
+background-color: var(--blue);
+}
+div.div-calculator1 {
+position: relative;
+width: 300px;
+height: 200px;
+} 
+div.div-calculator2 {
+position: absolute;
+top: 107px;
+left: 0;
+width: 200px;
+height: 34px;
+background-color: var(--blue);
+}
+div.div-puzzel1 {
+position: relative;
+width: 300px;
+height: 200px;
+} 
+div.div-puzzel2 {
+position: absolute;
+top: 107px;
+left: 0;
+width: 200px;
+height: 34px;
+background-color: var(--blue);
+}
+div.div-trail1 {
+position: relative;
+width: 300px;
+height: 200px;
+} 
+div.div-trail2 {
+position: absolute;
+top: 107px;
+left: 0;
+width: 200px;
+height: 34px;
+background-color: var(--blue);
+}
+
 .wave{
 height: 200px;
-width: 500px;
+width: 606px;
 flex: 0 0 90%;
 border: 2px solid var(--blue);
 border-bottom: 0px;
-}
-.led{
-height: 125px;
-width: 100px;
+ } 
+
+.led{ 
+height: 200px;
+width: 300px;
 flex: 0 0 45%;
 border: 2px solid var(--blue);
-border-bottom: 0px;  
+border-bottom: 0px; 
 }
+
 .calculator{
-height: 125px;
-width: 100px;
+height: 200px;
+width: 300px;
 flex: 0 0 45%;
 border: 2px solid var(--blue);
 border-left: 0px;
 }
+ 
 .puzzel{
-height: 125px;
-width: 100px;
+height: 200px;
+width: 300px;
 flex: 0 0 45%;
 border: 2px solid var(--blue);
 border-right: 0px;
 }
 .trail{
-height: 125px;
-width: 100px;
+height: 200px;
+width: 300px;
 flex: 0 0 45%;
 border: 2px solid var(--blue);
 border-top: 0px;
-}
+ } 
 .contact-me{
 display: flex;
 color: var(--text);
+margin: 1.5em 0em 0em 6.6em;
 }
-.contact-me > h2 {
-flex-wrap: wrap; 
-margin: 1.5em 0em 0em 1em;   
-}
+
 .contacts{
 display: flex;
 flex-direction: row;
 align-items: center;
-justify-content: space-between;
+justify-content: space-around;
 border-left: 2px solid #335b5ba6;
-margin-left: 5px;
-padding-left: 10px;
+margin-left: 0.8em;
+
+}
+.contact-nav{
+height: 48px;
+width: 100%;
+height: 48px;
 }

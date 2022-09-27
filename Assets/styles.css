@@ -48,6 +48,14 @@ background: linear-gradient(360deg, hsla(199, 74%, 44%, 0.65) 0%, hsla(180, 28%,
 background-size: 100% 100vh;
 background-repeat: no-repeat;
 }
+.profile-photo {
+margin-top: 50px;
+width: 157px;
+height: 200px;
+border-radius: 20px;
+border: 5px solid var(--blue);
+transition: all .5s;
+  }
 .subtitle{
 color: black;
 padding: 10px;
@@ -217,4 +225,130 @@ margin-left: 0.8em;
 height: 48px;
 width: 100%;
 height: 48px;
+}
+.a2{
+    padding: 0px;
+    color: var(--blue);   
+ }
+ li.nav2{
+    padding: 0px;
+    display: flex;
+    color: var(--blue);
+    list-style: none;
+    }
+@media screen and (max-width: 780px ){
+
+.nav > a{
+display: flex;
+color: var(--blue);
+}
+.about-me{
+    display: flex;
+    margin: 1.5em 0em 0em 1em;
+    color: var(--text);
+}
+.about-p{
+    display: flex;
+    color: var(--text);
+    margin: 1.5em 0em 0em 0em;
+}
+.work{
+    display: flex;
+    margin: 1.5em 0em 0em 2em;
+    color: var(--text);
+}
+.contact-me{
+    display: flex;
+    color: var(--text);
+    margin: 1.5em 0em 0em 0em;
+}
+}
+
+@media screen and (max-width: 390px ){
+
+    header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(84, 84, 84);
+    border: .5em;
+    padding: .5em 0em;
+}
+nav > ul.ul-nav{
+    display: flex;
+    justify-content: center;
+}
+h1 {
+background-color: var(--blue);
+font-size: 2.5em;
+margin: 0px;
+color: var(--text);
+}
+.wave{
+    height: 200px;
+    width: 291px;
+    flex: 0 0 90%;
+    border: 2px solid var(--blue);
+    border-bottom: 0px;
+}
+div.div-wave1{
+position: relative;
+/* width: 300px; */
+height: 200px;
+}
+.projects{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 7px;
+    width: 300px;
+    border-left: 2px solid #335b5ba6;
+    padding-left: 6px;
+}
+.work{
+    display: flex;
+    margin: 1.5em 0em 0em 1.2em;
+    color: var(--text);
+}
+.led{ 
+    height: 200px;
+    width: 291px;
+    flex: 0 0 45%;
+    border: 2px solid var(--blue);
+    border-bottom: 0px; 
+    }
+    
+    .calculator{
+    height: 200px;
+    width: 291px;
+    flex: 0 0 45%;
+    border: 2px solid var(--blue);
+    border-left: 0px;
+    }
+     
+.puzzel{
+height: 200px;
+width: 291px;
+flex: 0 0 45%;
+border: 2px solid var(--blue);
+border-right: 0px;
+}
+.trail{
+height: 200px;
+width: 291px;
+flex: 0 0 45%;
+border: 2px solid var(--blue);
+border-top: 0px;
+ } 
+
+li.nav2{
+padding: 0px;
+display: flex;
+color: var(--blue);
+}
+.a2{
+padding: 0px;
+color: var(--blue);
+}
+
 }

@@ -12,3 +12,4 @@ Challenge 2 is a project that incorporates HTML and CSS to build a student portf
 
 
 ## Link
+https://jesusgonzalez05.github.io/module-2-challenge/

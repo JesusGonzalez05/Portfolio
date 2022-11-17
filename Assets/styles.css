@@ -6,39 +6,32 @@ padding: 0;
 :root{
 --blue:rgb(116, 210, 210);
 --text:rgba(2, 23, 23, 0.65);
+--green:rgb(56, 253, 17);
 }
 
-header{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-background-color: rgb(84, 84, 84);
-border: .5em;
-padding: .5em 0em;
-}
-h1 {
-background-color: var(--blue);
-font-size: 2.5em;
-padding: .1em .1em .1em 1em;
-margin: 0px;
-color: var(--text);
-}
-nav > ul.ul-nav {
-display: flex;
-}
-.nav {
-flex-direction: row;
-justify-content: space-evenly;
-list-style: none;
-border-spacing: 5px;
-padding: 10px;
+h1{
+color:var(--green);
 }
 .nav > a{
-color:var(--blue);
-border-bottom: 2px solid  var(--blue);
+color:var(--green);
 text-decoration: none;
 }
+.nav a:hover{
+color:var(--green);
+}
+.tile .is-child{
+height: 385px;
+margin: 0!important;
+border-radius: 50%;
+width: 400px;
+background-color: hsla(0, 0%, 21%);
+}
+#bio{
+height: 200px;
+color: hsla(0, 0%, 21%);
+background-color: hsla(0, 0%, 21%);
 
+}
 .section-background{
 display: flex;
 justify-content: flex-end;
@@ -53,13 +46,13 @@ margin-top: 50px;
 width: 157px;
 height: 200px;
 border-radius: 20px;
-border: 5px solid var(--blue);
+border: 5px solid var(--green);
 transition: all .5s;
   }
 .subtitle{
 color: black;
 padding: 10px;
-background-color:var(--blue);
+background-color:var(--green);
 font-size: 1.5em;
 margin: 1em;
 color: var(--text);
@@ -238,10 +231,10 @@ height: 48px;
     }
 @media screen and (max-width: 780px ){
 
-.nav > a{
+/* .nav > a{
 display: flex;
 color: var(--blue);
-}
+} */
 .about-me{
     display: flex;
     margin: 1.5em 0em 0em 1em;
@@ -274,16 +267,16 @@ color: var(--blue);
     border: .5em;
     padding: .5em 0em;
 }
-nav > ul.ul-nav{
+/* nav > ul.ul-nav{
     display: flex;
     justify-content: center;
-}
-h1 {
+} */
+/* h1 {
 background-color: var(--blue);
 font-size: 2.5em;
 margin: 0px;
 color: var(--text);
-}
+} */
 .wave{
     height: 200px;
     width: 291px;

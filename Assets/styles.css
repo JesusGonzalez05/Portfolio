@@ -27,6 +27,13 @@ border-radius: 50%;
 width: 400px;
 background-color: hsla(0, 0%, 21%);
 }
+#hamburger{
+color: var(--green);
+
+}
+#hamburger-container{
+    top: 10px;
+}
 #bio-back{
 height: 200px;
 color: hsla(0, 0%, 21%);
@@ -35,6 +42,12 @@ background-color: hsla(0, 0%, 21%);
 #bio{
 height: 160px;
 width: 505px;
+}
+#small-circle{
+    height: 50px;
+    width: 40px;
+
+
 }
 .section-background{
 display: flex;
@@ -233,13 +246,13 @@ height: 48px;
     color: var(--blue);
     list-style: none;
     }
-@media screen and (max-width: 780px ){
+/* @media screen and (max-width: 780px ){
 
 /* .nav > a{
 display: flex;
 color: var(--blue);
 } */
-.about-me{
+/* .about-me{
     display: flex;
     margin: 1.5em 0em 0em 1em;
     color: var(--text);
@@ -258,8 +271,8 @@ color: var(--blue);
     display: flex;
     color: var(--text);
     margin: 1.5em 0em 0em 0em;
-}
-}
+} */
+/* }
 
 @media screen and (max-width: 390px ){
 
@@ -270,7 +283,7 @@ color: var(--blue);
     background-color: rgb(84, 84, 84);
     border: .5em;
     padding: .5em 0em;
-}
+} */
 /* nav > ul.ul-nav{
     display: flex;
     justify-content: center;
@@ -281,7 +294,7 @@ font-size: 2.5em;
 margin: 0px;
 color: var(--text);
 } */
-.wave{
+/* .wave{
     height: 200px;
     width: 291px;
     flex: 0 0 90%;
@@ -291,7 +304,7 @@ color: var(--text);
 div.div-wave1{
 position: relative;
 /* width: 300px; */
-height: 200px;
+/* height: 200px;
 }
 .projects{
     display: flex;
@@ -306,8 +319,8 @@ height: 200px;
     display: flex;
     margin: 1.5em 0em 0em 1.2em;
     color: var(--text);
-}
-.led{ 
+} */
+/* .led{ 
     height: 200px;
     width: 291px;
     flex: 0 0 45%;
@@ -322,8 +335,8 @@ height: 200px;
     border: 2px solid var(--blue);
     border-left: 0px;
     }
-     
-.puzzel{
+      */
+/* .puzzel{
 height: 200px;
 width: 291px;
 flex: 0 0 45%;
@@ -348,4 +361,4 @@ padding: 0px;
 color: var(--blue);
 }
 
-}
+} */

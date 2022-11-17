@@ -11,11 +11,18 @@
 <body>
 <header>
     <nav class="navbar has-background-grey-dark" role="navigation" aria-label="main navigation">
-        <div class="navbar-menu">
-            <div class="navbar-start">
-                <p class="nav button is-large is-rounded m-1 is-dark"><a href="#">Jesus Gonzalez</a> </p>
+        <div class="navbar-brand">
+            <div class="navbar-item">
+                <p class="nav button is-large is-rounded is-dark"><a href="#">Jesus Gonzalez</a> </p>
             </div>
-
+      
+          <a role="button" id="hamburger-container" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span id="hamburger" aria-hidden="true"></span>
+            <span id="hamburger" aria-hidden="true"></span>
+            <span id="hamburger" aria-hidden="true"></span>
+          </a>
+        </div>
+        <div class="navbar-menu">
             <div class="navbar-end">
                 <p class="nav button is-rounded m-3 is-dark"><a href="#aboutme">About Me</a> </p>
                 <p class="nav button is-rounded m-3 is-dark"><a href="#work">Work</a> </p>
@@ -42,6 +49,15 @@
                     <div class="tile is-ancestor has-text-centered">
                         <div class="tile is-vertical is-parent">
                             <div id="bio" class=" tile box is-10 has-text-centered circle">
+
+                                <div class="tile is-ancestor has-text-centered">
+                                    <div class="tile is-2 is-vertical is-parent">
+                                        <div class="tile is-child box has-text-centered">
+                                            <h2>About Me</h2>
+                                        </div>
+                                    </div>
+                                </div>
+
                                 <h2>About Me</h2>
                                 <div class="paragraphs">
                                 <p class="about-p">Hello, my name is Jesus Gonzalez! I am a 24 year old UCF bootcamp student living in Tampa, FL. </p>
@@ -79,8 +95,8 @@
                     <div class="div-led2"><figcaption class="figcaption-1"> Nomadic </figcaption></div>
                 </div>
 
-                <div class="div-calculator1"><img class="calculator" src="./Assets/images/pexels-pixabay-220301.jpg" alt="Image depicts a calculator." >
-                    <div class="div-calculator2"><figcaption class="figcaption-1"> Placeholder </figcaption></div>
+                <div class="div-calculator1"><a href="https://cinemafiles.herokuapp.com/"><img class="calculator" src="./Assets/images/pexels-pixabay-220301.jpg" alt="Image depicts a calculator." ></a>
+                    <div class="div-calculator2"><figcaption class="figcaption-1"> CINEMAfiles </figcaption></div>
                 </div>
 
                 <div class="div-puzzel1"><img class="puzzel" src="./Assets/images/pexels-sharon-snider-5142463.jpg" alt="image depicts puzzel peices.">

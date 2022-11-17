@@ -11,6 +11,7 @@ padding: 0;
 
 h1{
 color:var(--green);
+right: 100px;
 }
 .nav > a{
 color:var(--green);
@@ -26,11 +27,14 @@ border-radius: 50%;
 width: 400px;
 background-color: hsla(0, 0%, 21%);
 }
-#bio{
+#bio-back{
 height: 200px;
 color: hsla(0, 0%, 21%);
 background-color: hsla(0, 0%, 21%);
-
+}
+#bio{
+height: 160px;
+width: 505px;
 }
 .section-background{
 display: flex;

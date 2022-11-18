@@ -34,6 +34,12 @@ color: var(--green);
 #hamburger-container{
     top: 10px;
 }
+#hero-body{
+background-image: url("https://stepik.org/media/attachments/lesson/452681/space.png");
+}
+#profile-bubble{
+background-color: rgb(54, 54, 54,0.8);
+}
 #bio-back{
 height: 200px;
 color: hsla(0, 0%, 21%);

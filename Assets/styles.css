@@ -7,8 +7,12 @@ padding: 0;
 --blue:rgb(116, 210, 210);
 --text:rgba(2, 23, 23, 0.65);
 --green:rgb(56, 253, 17);
+--greyt:rgb(54, 54, 54,0.8);
 }
-
+.navbar{
+background-color: rgb(54, 54, 54,0.8);
+background-image: url("https://stepik.org/media/attachments/lesson/452681/space.png");
+}
 h1{
 color:var(--green);
 right: 100px;
@@ -55,6 +59,29 @@ width: 505px;
 
 
 }
+.rectangle-canvas{
+  height:220px;
+  width: 460px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .rectangle{
+  height:200px;
+  width: 450px;
+  background-color: var(--greyt);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 17px;
+  }
+  .message-container{
+  height:175px;
+  width: 427px;
+  background-color: white;
+  display: flex;
+  border-radius: 17px;
+  }
 /* .planet{
     height:200px;
     width:200px;

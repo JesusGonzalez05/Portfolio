@@ -24,12 +24,16 @@ text-decoration: none;
 .nav a:hover{
 color:var(--green);
 }
+#button{
+background-color: var(--greyt);
+border-color: var(--green);
+}
 .tile .is-child{
 height: 385px;
-margin: 0!important;
+margin: 0;
 border-radius: 50%;
 width: 400px;
-background-color: hsla(0, 0%, 21%);
+background-color: rgb(39, 38, 38);
 }
 #hamburger{
 color: var(--green);
@@ -43,16 +47,10 @@ background-image: url("https://stepik.org/media/attachments/lesson/452681/space.
 }
 #profile-bubble{
 background-color: rgb(54, 54, 54,0.8);
+border-style: solid;
+border-color: var(--green);
 }
-#bio-back{
-height: 200px;
-color: hsla(0, 0%, 21%);
-background-color: hsla(0, 0%, 21%);
-}
-#bio{
-height: 160px;
-width: 505px;
-}
+
 #small-circle{
     height: 50px;
     width: 40px;
@@ -66,6 +64,10 @@ width: 505px;
   justify-content: center;
   align-items: center;
   }
+#rectangle-canvas{
+
+
+}
   .rectangle{
   height:200px;
   width: 450px;
@@ -74,22 +76,26 @@ width: 505px;
   justify-content: center;
   align-items: center;
   border-radius: 17px;
+  border-style: solid;
+  border-color: var(--green);
+
+
   }
-  .message-container{
+  /* .message-container{
   height:175px;
   width: 427px;
   background-color: white;
   display: flex;
   border-radius: 17px;
-  }
-/* .planet{
+  } */
+.planet{
     height:200px;
     width:200px;
     border-radius: 50%;
     position: relative;
     background-color: rgb(101, 71, 185);
-    top:45px;
-    left:220px;
+    bottom:120px;
+    left:450px;
   }
   .r1{
     background-color: #8159ee;
@@ -172,7 +178,7 @@ width: 505px;
     border-radius: 50%;
     bottom: 176px;
     right:16px;
-  } */
+  }
 .section-background{
 display: flex;
 justify-content: flex-end;
